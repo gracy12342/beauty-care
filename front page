@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h1>Discover Beauty in a Bottle</h1>
+            <p>Your Beauty Secret Awaits</p>
+            <a href="#features" class="cta-button">Learn More</a>
+        </div>
+    </section>
+    
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <img src="feature1.jpg" alt="Feature 1">
+                <h3>Hydrating Formula</h3>
+                <p>Our product is specially formulated to keep your skin hydrated and glowing all day.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.jpg" alt="Feature 2">
+                <h3>Natural Ingredients</h3>
+                <p>We use only the finest natural ingredients to enhance your beauty without harmful chemicals.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.jpg" alt="Feature 3">
+                <h3>Visible Results</h3>
+                <p>See the visible results within days of using our product. Achieve the look you desire.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <img src="customer1.jpg" alt="Customer 1">
+                <p>"I can't believe how amazing this product is. My skin has never looked better!"</p>
+                <p class="customer-name">- Sarah D.</p>
+            </div>
+            <div class="testimonial">
+                <img src="customer2.jpg" alt="Customer 2">
+                <p>"I've tried many beauty products, but this one is a game-changer. Highly recommended!"</p>
+                <p class="customer-name">- John S.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us:</p>
+            <p>Email: info@beautyproduct.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Beauty Product</p>
+        </div>
+    </footer>
+</body>
+</html>
